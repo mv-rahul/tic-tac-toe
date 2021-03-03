@@ -100,21 +100,36 @@ export const Game = () => {
       <Grid item xs>
         <Grid container direction="row">
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(0)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) if (!result) onClickCell(0);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[0] ? gameData[0] : "-") : "-"}
               </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(1)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(1);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[1] ? gameData[1] : "-") : "-"}
               </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(2)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(2);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[2] ? gameData[2] : "-") : "-"}
               </Typography>
@@ -125,21 +140,36 @@ export const Game = () => {
       <Grid item xs>
         <Grid container direction="row">
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(3)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(3);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[3] ? gameData[3] : "-") : "-"}
               </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(4)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(4);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[4] ? gameData[4] : "-") : "-"}
               </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(5)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(5);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[5] ? gameData[5] : "-") : "-"}
               </Typography>
@@ -150,21 +180,36 @@ export const Game = () => {
       <Grid item xs>
         <Grid container direction="row">
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(6)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(6);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[6] ? gameData[6] : "-") : "-"}
               </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(7)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(7);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[7] ? gameData[7] : "-") : "-"}
               </Typography>
             </Paper>
           </Grid>
           <Grid item>
-            <Paper className={classes.paper} onClick={() => onClickCell(8)}>
+            <Paper
+              className={classes.paper}
+              onClick={() => {
+                if (!result) onClickCell(8);
+              }}
+            >
               <Typography className={classes.text} variant="h3">
                 {click ? (gameData[8] ? gameData[8] : "-") : "-"}
               </Typography>
